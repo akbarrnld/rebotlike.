@@ -71,10 +71,9 @@ def autolike():
         if hasil['result']['posts'][zx]['postInfo']['liked'] == False:
           try:    
             #-----------------------------[JANGAN DIEDIT - Hargai Saya]-----------------------------#
-            cl.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-            cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Autolike By Farzain - zFz\n\nSubscribe Channel Saya yak kalau mau bisa kayak gini\nhttps://youtube.com/c/zfz48")
+     
             #-----------------------------[JANGAN DIEDIT - Hargai Saya]-----------------------------#
-            cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"")
+            cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like By Rebot\nhttp:goo.gl/qjckA4\nSubscribe Channel\n\nhttps://youtube.com/c/zfz48")
             print "Like"
           except:
             pass
