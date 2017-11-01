@@ -73,7 +73,7 @@ def autolike():
             #-----------------------------[JANGAN DIEDIT - Hargai Saya]-----------------------------#
      
             #-----------------------------[JANGAN DIEDIT - Hargai Saya]-----------------------------#
-            cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Autolike By Rebot\nhttp://goo.gl/qjckA4\nSubscribe Channel\n\nhttps://youtube.com/c/zfz48")
+            cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Autolike By Rebot\nhttp://goo.gl/qjckA4\n\nSubscribe Channel\nhttps://youtube.com/c/zfz48")
             print "Like"
           except:
             pass
